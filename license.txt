@@ -1,6 +1,7 @@
 WordPress - Web publishing software
 
 // added online
+// added local
 
 Copyright 2014 by the contributors
 
