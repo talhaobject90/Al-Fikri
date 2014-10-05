@@ -7,7 +7,7 @@
  * @subpackage Radiate
  * @since Radiate 1.0
  */
-
+ 
 /**
  * Setup the WordPress core custom header feature.
  *
@@ -19,10 +19,11 @@
  */
 function radiate_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'radiate_custom_header_args', array(
-		'default-image'          => '%s/images/header/header-image-one.jpg',
+		//'default-image'          => '%s/images/header/header-image-one.jpg',
+	'default-image'          => '%s/images/header/dua_hand.jpg',
 		'default-text-color'     => '444444',
-		'width'                  => 1500,
-		'height'                 => 450,
+		'width'                  => 610,
+		'height'                 => 350,
 		'flex-width'				 => true,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'radiate_header_style',
@@ -30,6 +31,7 @@ function radiate_custom_header_setup() {
 		'admin-preview-callback' => 'radiate_admin_header_image',
 	) ) );
 
+	
 	/*
 	 * Default custom headers packaged with the theme.
 	 * %s is a placeholder for the theme template directory URI.
