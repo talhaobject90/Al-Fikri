@@ -1,5 +1,5 @@
-/wp-config.php
-/wp-cron.php
+wp-config.php
+wp-cron.php
 .gitignore
 .project
 .buildpath
