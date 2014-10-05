@@ -31,6 +31,7 @@ function radiate_custom_header_setup() {
 		'admin-preview-callback' => 'radiate_admin_header_image',
 	) ) );
 
+	
 	/*
 	 * Default custom headers packaged with the theme.
 	 * %s is a placeholder for the theme template directory URI.
