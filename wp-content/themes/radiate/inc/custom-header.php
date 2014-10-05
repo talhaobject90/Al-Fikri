@@ -16,7 +16,11 @@
  * @uses radiate_admin_header_image()
  *
  * @package radiate
- */
+ */    
+
+//
+    
+
 function radiate_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'radiate_custom_header_args', array(
 		//'default-image'          => '%s/images/header/header-image-one.jpg',
