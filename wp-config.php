@@ -19,6 +19,7 @@
  
 
 define('DB_NAME', 'al');
+ 
 
 /** MySQL database username */
 define('DB_USER', 'root');

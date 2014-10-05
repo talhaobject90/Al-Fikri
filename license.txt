@@ -1,5 +1,9 @@
 WordPress - Web publishing software
 
+// added online
+// added local
+// added again online
+
 Copyright 2014 by the contributors
 
 This program is free software; you can redistribute it and/or modify
